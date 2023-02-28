@@ -1,0 +1,28 @@
+{
+  "contactos": [
+    {
+      "id": 1,
+      "nombre": "Daniel Ruiz Maroto",
+      "telefono": "654554466",
+      "foto": "https://media.licdn.com/dms/image/D4D35AQGCYRzAVQ4BBw/profile-framedphoto-shrink_100_100/0/1671557810989?e=1678107600&v=beta&t=UsvKo0imNXvku8_YiWTl5Q7HSOujMg_1OPr-D4jnxBM"
+    },
+    {
+      "id": 2,
+      "nombre": "Fernando Molero Martin",
+      "telefono": "654443322",
+      "foto": "https://media.licdn.com/dms/image/D4D35AQHRPwHDHoSqJQ/profile-framedphoto-shrink_100_100/0/1669652562539?e=1678107600&v=beta&t=uZfXhYxm30_lKvCE1sfRqrc6qV3QaBKWJLKO-2J-P-0"
+    },
+    {
+      "id": 3,
+      "nombre": "David Albatro Ruiz",
+      "telefono": "643245021",
+      "foto": "https://media.licdn.com/dms/image/D5603AQEMYQ0zjVuXBQ/profile-displayphoto-shrink_100_100/0/1675640374731?e=1683158400&v=beta&t=JCsURR9htmsuS-rtmwYiYwbRHMFb-MSIdJBWag59tkA"
+    },
+    {
+      "nombre": "Humberto Casanova Lebrero",
+      "telefono": "605313362",
+      "foto": "https://media.licdn.com/dms/image/D4D03AQEDDlPdE1JICw/profile-displayphoto-shrink_400_400/0/1671442467913?e=1683158400&v=beta&t=fFJawyjfOJqcg5WEKtLF7vCVUWPq1JCC4LEt5uZIoGs",
+      "id": 4
+    }
+  ]
+}

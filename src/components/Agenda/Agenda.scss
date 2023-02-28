@@ -1,0 +1,55 @@
+.contacts {
+    max-width: 500px;
+    margin: 0px auto;
+    
+    &__item{
+        background-color: white;
+        display: flex;
+        justify-content: left;
+        padding: 10px;
+        margin: 10px;
+        color: black;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    &__img {
+        max-height: 100px;
+        padding: 20px;
+    }
+
+    &__info {
+        text-align: left;
+    }
+
+    &__search {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    &__formulary {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        gap: 10px;
+    }
+
+    &__button {
+        width: fit-content;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: rgb(237, 145, 145);
+
+        &--add{
+            width: fit-content;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgb(196, 196, 196);
+            margin: 0px auto;
+        }
+    }
+}
+
