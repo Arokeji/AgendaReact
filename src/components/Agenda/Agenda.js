@@ -102,7 +102,7 @@ const Agenda = React.memo(() => {
                 <form onSubmit={(event) => addContact(event)} className='contacts__formulary'>
                     <h2>Añadir un nuevo contacto</h2>
                     
-                    <label>Nombre completo</label>
+                    <label className='contacts__field'>Nombre completo
                     <input placeholder='Nombre y apellidos' 
                         name="name" 
                         id="name" 
@@ -112,7 +112,8 @@ const Agenda = React.memo(() => {
                             nombre: event.target.value,
                         })}>
                     </input>
-                    <label>Telefono</label>
+                    </label>
+                    <label className='contacts__field'>Telefono
                     <input placeholder='Telefono' 
                         type='number'
                         name="numero" 
@@ -123,7 +124,8 @@ const Agenda = React.memo(() => {
                             telefono: event.target.value,
                         })}>
                     </input>
-                    <label>URL de la foto</label>
+                    </label>
+                    <label className='contacts__field'>URL de la foto
                     <input placeholder='http://...'
                         name="foto" 
                         id="foto" 
@@ -133,6 +135,7 @@ const Agenda = React.memo(() => {
                             foto: event.target.value,
                         })}>
                     </input>
+                    </label>
                     <button className='contacts__button--add' type="submit">Añadir contacto</button>
                 </form>
             </div>

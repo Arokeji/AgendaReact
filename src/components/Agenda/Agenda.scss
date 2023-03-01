@@ -35,6 +35,11 @@
         gap: 10px;
     }
 
+    &__field {
+        display: flex;
+        flex-direction: column;
+    }
+
     &__button {
         width: fit-content;
         border: none;
